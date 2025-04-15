@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    margin: 0; /* Remove margens padrão */
+    height: 100vh; /* Garante que o body cubra 100% da altura da viewport */
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../IMAGES/background.png); /* Define a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+    overflow: hidden;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+
+text-align: center;
+height: 54px;
+left: 801px;
+top: 37px;
+font-family: 'Adamina';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 49px;
+
+color: #E70000;
+
+
+}
+
+.form-container {
+    width: 60%;
+    margin: 20px 100px;
+    background-color: #ffffffad;
+    padding: 20px;
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.022);
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os campos */
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+    min-width: calc(50% - 20px); /* Ajusta o tamanho mínimo de cada input */
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    color: #373737;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.Enviar {
+    text-decoration: none;
+    text-align: center;
+    width: 95%;
+    padding: 10px 20px;
+    background-color: #ff000091; /* Azul */
+    color: #ffffff; /* Texto branco */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex; /* Alinha o botão à direita */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.Enviar:hover {
+    background-color: #d80909; /* Cor mais escura ao passar o mouse */
+}
+
+

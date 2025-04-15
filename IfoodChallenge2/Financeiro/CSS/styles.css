@@ -1,0 +1,131 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    margin: 0; /* Remove margens padrão */
+    height: 100vh;
+    background-image: url(/IfoodChallenge2/Financeiro/IMAGES/background.png);
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+    overflow: hidden;
+}
+
+.NomeLoja{
+    
+position: absolute;
+width: 318px;
+height: 82px;
+left: 112px;
+top: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+color: #C50000;
+font-weight: 550;
+
+}
+
+.valor {
+position: absolute;
+width: 318px;
+height: 82px;
+left: 112px;
+top:  150px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+color: #C50000;
+}
+
+.Saldo{
+/* border-radius: 20px;
+background-color: aliceblue; */
+position: absolute;
+width: 300px;
+height: 90px;
+left: 112px;
+font-weight: 700; 
+top: 100px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+color: #C50000;
+font-weight: 550;
+}
+
+.menu-icon{
+    position: relative; /* Ou use absolute, dependendo do contexto */
+    transform: scale(0.4); /* Reduz o tamanho do elemento */
+    display: flex; /* Define o container como flexível */
+    justify-content: center; /* Alinha itens filhos ao centro */
+    top: 200px; /* Remove a margem padrão para ajustar o espaço */
+    left: -150px; /* Move o elemento para a esquerda */
+    gap: 100px; /* Espaço entre os itens flexíveis */
+}
+
+.transferencias:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1)
+}
+
+.pagamentos:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1)
+}
+
+.emprestimo:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1)
+}
+
+.cartoes:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1)
+}
+
+
+
+
+.card-icon{
+    display: flexbox;
+    transform: scale(0.4);
+    position:relative;
+    width: 678px;
+    height: 270px;
+    left: -130px;
+    top: 100px;
+}
+
+.card-icon:hover{
+    transition: transform 0.3s ease;
+    transform: scale(0.43)
+}
+
+
+.info-icon {
+    display: flexbox;
+    transform: scale(0.4);
+    position:relative;
+    width: 678px;
+    height: 270px;
+    left:550px;
+    bottom: 165px;
+}
+
+.logo{
+    transform: scale(0.3);
+    position: absolute;
+    width: 318px;
+    height: 82px;
+    right: 2px;
+    top: 20px;
+}
+
